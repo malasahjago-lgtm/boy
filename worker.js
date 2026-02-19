@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const { exec } = require('child_process');
 const app = express();
 
-const PORT = 2025; // Port untuk Uptime Robot (Bisa disesuaikan di Ptero)
+const PORT = 7120; // Port untuk Uptime Robot (Bisa disesuaikan di Ptero)
 const MASTER_URL = 'ws://38.58.180.133:3026'; // Samakan port dengan Master
 
 app.use(bodyParser.json());
